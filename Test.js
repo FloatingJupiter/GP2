@@ -2,7 +2,7 @@ const http = require('http')
 const port = 3000
 
 const server = http.createServer(function(req, res) {
-    res.write('You want some dick??')
+    res.write('GP2')
     res.end()
 })
 
