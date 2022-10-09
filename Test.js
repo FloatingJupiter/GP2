@@ -1,5 +1,5 @@
 const http = require('http')
-const port = 3000
+const port = 8080
 
 const server = http.createServer(function(req, res) {
     res.write('GP2')
